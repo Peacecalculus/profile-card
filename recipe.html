@@ -31,8 +31,11 @@
             </div>
             
             <div class="hero_image">
-                 <img src="/img/hero_section.jpg" alt="hero_section image" class="hero_image" width="100%">
-            </div>
+                <picture>
+                    <source srcset="https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/webp">
+                    <img src="path/to/your/fallback.jpg" alt="A hero section image showing various recipes" class="hero_image" width="100%">
+                </picture>
+         </div>
         </div>
     </header>
 
@@ -47,7 +50,10 @@
                 <p><strong>Difficulty:</strong> <em>Easy</em></p> 
 
             <div class="recipe_image">
-                <img src="/img/Spaghetti Carbonara.jpg" alt="Spaghetti Carbonara" width="600">
+                <picture>
+                    <source srcset="https://images.unsplash.com/photo-1574969903809-3f7a1668ceb0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/webp">
+                    <img src="/img/spaghetti carbonara.jpg" alt="Image of Spaghetti Carbonara" width="600" class="recipe_image">
+                </picture>
             </div>
                 <h2>Ingredients:</h2>
                 <ul>
@@ -91,7 +97,12 @@
                     <article>
                         <h2><a href="#">Chicken Curry</a></h2>
                         <p>A flavorful chicken curry with spices and coconut milk.</p>
-                        <img src="/img/chicken curry.jpg" alt="image of chicken curry" width="600">
+                    <div class="recipe_image">
+                        <picture>
+                            <source srcset="https://images.unsplash.com/photo-1708782344490-9026aaa5eec7?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/webp">
+                            <img src="/img/chicken curry.jpg" alt="Image of Chicken Curry" width="600" class="recipe_image">
+                        </picture>
+                     </div>
                         <div class="recipe_details">
                             <p>A comforting and flavorful curry with tender chicken pieces simmered in a rich, aromatic sauce. Perfect with rice or naan!</p>
                             <p><strong>Preparation Time: </strong><time datetime="PT25M"><em>25 minutes</em></time></p>
@@ -226,6 +237,7 @@
         <div class="footer_content">
             <p>&copy; <u>2025 Tasty Recipe.</u> All rights reserved.</p>
             <p>Designed by Ezekiel Emem Peace</p>
+            <p>Student ID: ALT/SOE/025/3141</p>
         </div>
         <div class="footer_bottom">
             <p>Powered by <a href="https://www.altschoolafrica.com">ALTSCHOOL AFRICA</a></p>
